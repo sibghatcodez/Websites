@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parvaaz | Your New Journey.</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;800&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/38e2ab382e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <div class="logo">
+        <h1>PARVAAZ <i class="fa-solid fa-plane-departure"></i></h1>
+      </div>
+      <div class="nav">
+        <ul class="navbar">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">TRIPS</a></li>
+          <li><a href="#">AIRLINES</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars icons" id="icon" onclick="toggleMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>World's Bestest Airline Services</h1>
+      <p>
+        The biggest airline sit amet consectetur adipisicing elit. <br />
+        Eum quam aspernatur, consequatur repellat est <br />
+        iste iusto, tempora ipsam repellendus autem quidem ratione, <br />
+        dignissimosperspiciatis sapiente voluptas magnam praesentium <br />
+      </p>
+      <br />
+      <a href="" class="btn">Visit us to know more</a>
+    </div>
+  </section>
+
+  <section class="tips">
+    <h1>Travel Tips <i class="fa-regular fa-lightbulb"></i></h1>
+    <h4>from experienced travellers from all around the globe.</h4>
+    <br />
+    <div class="box">
+      <div class="travel-tips">
+        <p>
+          1, Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          quasi aperiam vel nostrum ex explicabo!
+        </p>
+        <h3>Christine Berkley</h3>
+      </div>
+      <div class="travel-tips">
+        <p>
+          2, Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          quasi aperiam vel nostrum ex explicabo!
+        </p>
+        <h3>Marsh Jacques</h3>
+      </div>
+      <div class="travel-tips">
+        <p>
+          3, Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          quasi aperiam vel nostrum ex explicabo!
+        </p>
+        <h3>Eoin Morhpine</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="aeroplane">
+    <h1>Top Rated Airlines <i class="fa-solid fa-star"></i></h1>
+    <br />
+    <div class="box">
+      <div class="airlines">
+        <h2>Emirates Airlines</h2>
+        <img src="img/emirate_airline.jpg" alt="" />
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <div class="airlines">
+        <h2>Turkish Airlines</h2>
+        <img src="img/turkish_airline.jpg" alt="" />
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <div class="airlines">
+        <h2>Pakistani Airlines</h2>
+        <img src="img/pakistan_airline.jpg" alt="" />
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+    </div>
+  </section>
+
+  <section class="places">
+    <h1>
+      Most Visitied Destinies
+      <i class="fa-solid fa-person-walking-luggage"></i>
+    </h1>
+    <br />
+    <div class="box">
+      <div class="city">
+        <h2>Istanbul</h2>
+        <img src="img/istanbul.jpg" alt="" />
+        <div class="likes">
+          239K<i class="fa-solid fa-thumbs-up"></i> 80k<i class="fa-solid fa-heart"></i>
+        </div>
+      </div>
+      <div class="city">
+        <h2>Paris</h2>
+        <img src="img/paris.jpg" alt="" />
+        <div class="likes">
+          219K<i class="fa-solid fa-thumbs-up"></i> 67k<i class="fa-solid fa-heart"></i>
+        </div>
+      </div>
+      <div class="city">
+        <h2>Tokyo</h2>
+        <img src="img/tokyo.jpg" alt="" />
+        <div class="likes">
+          198K<i class="fa-solid fa-thumbs-up"></i> 49k<i class="fa-solid fa-heart"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <br />
+    <h3>All rights reserved. 1980-2023 &copy;</h3>
+    <h3>Made with <i class="fa-solid fa-heart"></i> by sibghatcodez</h3>
+  </section>
+
+
+  <script>
+
+    function toggleMenu() {
+      const bar = document.querySelector('.icons');
+      const navbar = document.querySelector('.navbar');
+
+      navbar.style.display = (navbar.style.display === 'none') ? 'flex' : 'none';
+    }
+  </script>
+</body>
+
+</html>
