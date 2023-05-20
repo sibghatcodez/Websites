@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Piano Shop | PakPianos.pk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/38e2ab382e.js" crossorigin="anonymous"></script>
+  <style>
+    body{
+      margin: 0px;
+      padding: 0px;
+      background-color: #404258;
+    }
+
+    #header {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 5px;
+      align-items: center;
+      padding-bottom: 15px;
+      border-bottom: 2px #A3C7D6 solid;
+    }
+
+    .logo h1:hover {
+      text-shadow: #A3C7D6 0px 0px 15px;
+    }
+
+    .logo h1 {
+      color: #A3C7D6;
+      font-family: 'Chelsea Market', cursive;
+    }
+
+    .navBar ul li {
+      list-style: none;
+      display: inline;
+      padding: 5px 10px;
+    }
+
+    .navBar ul li a {
+      text-decoration: none;
+      color: #D8D8D8;
+      font-weight: 600;
+      font-size: 1.5rem;
+      text-shadow: #000 0px 0px 15px;
+      font-family: 'Julius Sans One', sans-serif;
+    }
+
+    .navBar ul li a:hover {
+      color: #ffffff;
+    }
+
+    .searchBar {
+      display: flex;
+      align-items: center;
+    }
+
+    .searchBar input {
+      height: 40px;
+      width: 250px;
+      padding: 0px 3px;
+      color: rgb(255, 255, 255);
+      font-weight: bolder;
+      font-size: 1rem;
+      border: 2px #1B2430 solid;
+      border-radius: 10px;
+      margin-right: 5px;
+    }
+
+    .searchBar input:hover {
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+
+    .searchBar i {
+      color: #A3C7D6;
+    }
+
+
+
+
+    #body {
+      display: grid;
+      grid-template-columns: 9fr 6fr;
+      align-items: center;
+      margin: 50px 20px;
+    }
+
+    .content h2 {
+      color: white;
+      font-size: 3rem;
+      font-family: 'Unbounded', cursive;
+
+    }
+
+    .content p {
+      color: white;
+      font-size: 1.5rem;
+      font-family: 'Caveat', cursive;
+      text-shadow: #000 0px 0px 15px;
+    }
+
+    .content span {
+      color: #4E9F3D;
+    }
+
+    .bg {
+      border: 2px #000000 solid;
+      height: 50vh;
+      width: 30vw;
+      box-shadow: 0px 20px 20px 20px rgb(0 0 0 / 20%);
+
+    }
+
+    .bg img {
+      height: 50vh;
+      width: 30vw;
+    }
+    .bg img:hover{
+      animation: skew 3s ease-in;
+    }
+    @keyframes skew{
+      50%{
+        transform: skew(10deg);
+        box-shadow: 0px 20px 20px 20px rgb(180, 178, 178);
+
+      }
+      100%{
+        transform: skew(-10deg);
+        box-shadow: 0px 20px 20px 20px rgb(219, 218, 218);
+
+      }
+    }
+    footer {
+      display: grid;
+      grid-template-columns: 3fr 3fr 3fr 3fr;
+      position: relative;
+      bottom: -108px;
+      background-color: #282A3A;
+      border-top: 2px black solid;
+    }
+    .list-one ul li,
+    .list-two ul li,
+    .list-three ul li{
+      list-style: none;
+      font-size: large;
+      color: #a6a7af;
+    }
+    .list-one ul li:hover,
+    .list-two ul li:hover,
+    .list-three ul li:hover{
+      text-decoration: underline;
+    }
+    .list{
+      display: flex;
+      align-items: center;
+      margin: 0px 4px;
+    }
+    .list img{
+      height: 10vh;
+      width: 10vw;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    <div class="logo">
+      <h1>ThePianoShop</h1>
+    </div>
+    <div class="navBar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Type</a></li>
+      </ul>
+    </div>
+    <div class="searchBar">
+      <input type="search" name="" id="" placeholder="Search anything you want...">
+      <a href="#"><i class="fa fa-magnifying-glass fa-2x"></i></a>
+    </div>
+  </div>
+
+  <div id="body">
+    <div class="content">
+      <h2>Piano el Classico</h1>
+        <p>We're offering you best pianos in <span>cheap prices</span> <br> Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. <br> Distinctio ipsum minus nihil deleniti accusantium <br> in repudia Lorem ipsum dolor sit
+          amet. ndae iusto, eum nostrum
+          sunt.</p>
+    </div>
+    <div class="bg">
+      <img src="img2/piano.jpg" alt="">
+    </div>
+  </div>
+
+  <footer>
+    <div class="list">
+<img src="img2/piano2.jpg" alt="">
+    </div>
+    <div class="list-one">
+      <ul>
+        <li>Visit</li>
+        <li>Contact Us</li>
+        <li>About us</li>
+        <li>Information</li>
+      </ul>
+    </div>
+    <div class="list-two">
+      <ul>
+      <li>Other Medias</li>
+      <li>Facebook</li>
+      <li>Twitter</li>
+      <li>Shopify</li>
+      </ul>
+    </div>
+    <div class="list-three">
+      <ul>
+      <li>Buy Now</li>
+      <li>Offers</li>
+      <li>Events</li>
+      <li>www.ThePianoShop.pk</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

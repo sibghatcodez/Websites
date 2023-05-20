@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razer | SibghatCodez</title>
+    <script src="https://kit.fontawesome.com/38e2ab382e.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: #353535;
+        }
+
+        #container {
+            background-color: rgb(0, 0, 0);
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: 0.5fr 10fr 1fr 1.5fr;
+            padding: 10px;
+            border-bottom: 3px #68f552 solid;
+            box-shadow: 0px 5px 20px #000;
+        }
+
+        .logo img {
+            height: 5vh;
+            width: 4vw;
+        }
+
+        .navbar ul li {
+            list-style: none;
+            display: inline;
+            padding: 0px 23px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: rgb(160, 160, 160);
+            font-size: 1.2rem;
+        }
+
+        .navbar ul li a:hover {
+            color: white;
+        }
+
+        .icons {
+            color: rgb(160, 160, 160);
+            display: flex;
+            align-items: center;
+        }
+
+        .icons:hover {
+            color: white;
+        }
+ 
+        .hr-line{
+            height: 3vh;
+        }
+        .hr-line hr {
+            height: 5vh;
+            width: 100vw;
+            background-color: #6d6d6d;
+            position: absolute;
+            top: 67px;
+        }
+        .hr-line hr::after{
+            content: "All orders over US$49 will enjoy free standard shipping to the United States.";
+            text-align: center;
+            color: white;
+            position: absolute;
+            right: 400px;
+            margin: 10px;
+        }
+        .midcontent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            text-shadow: 0px 0px 10px #000;
+        }
+        .midcontent::before{
+            content: "";
+            background: url('img2/razerbg.png') no-repeat center center/cover;
+            position: absolute;
+            height: 80vh;
+            width: 100vw;
+            opacity: 1;
+            z-index: -1;
+            box-shadow: 0px 5px 20px #000;
+        }
+        .midcontent h1{
+            font-size: 3rem;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            margin-bottom: 0;
+            margin-top: 75px;
+        }
+        .midcontent h3{
+            margin-top: 0;
+            font-size: 1.8rem;
+            font-weight: 400;
+            font-family: monospace;
+            color: white;
+        }
+        .midcontent a{
+            margin-top: 0;
+            color: white;
+            font-size: 1.7rem;
+            text-decoration: none;
+        }
+        .midcontent a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="logo">
+            <img src="img2/razer.png" alt="">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">PC</a></li>
+                <li><a href="#">Console</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+        </div>
+        <div class="icons icon-1">
+            <i class="fa fa-magnifying-glass"></i>
+        </div>
+        <div class="icons icon-2">
+            <i class="icons fa fa-cart-shopping"></i>
+        </div>
+    </div>
+    <div class="hr-line">
+        <hr>
+    </div>
+    <div class="midcontent">
+        <h1>WELCOME TO THE WINNING SEASON</h1>
+        <h3>HOLIDAY SEASON GAMING EXCLUSIVE</h3>
+        <a href="#">Shop Now</a>
+    </div>
+</body>
+
+</html>
